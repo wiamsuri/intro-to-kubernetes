@@ -12,6 +12,7 @@ Clone this repository
 ```
 brew update
 brew install helm
+brew install watch
 ```
 
 ## Add Hostname to /etc/hosts

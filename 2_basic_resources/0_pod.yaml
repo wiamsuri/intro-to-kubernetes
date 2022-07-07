@@ -1,0 +1,9 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: my-first-pod
+  namespace: testapp
+spec:
+  containers:
+  - name: api
+    image: <docker-hub-username>/fastapi-test:latest
