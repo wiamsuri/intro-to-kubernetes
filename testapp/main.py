@@ -10,4 +10,5 @@ async def root():
     return {
         'status': 'ok',
         'demo_env': os.getenv('DEMO_ENV'),
+        'demo_secret': os.getenv('DEMO_SECRET'),
     }
