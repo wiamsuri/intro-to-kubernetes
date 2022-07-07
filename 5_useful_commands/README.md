@@ -1,5 +1,12 @@
 # Useful Commands
 
+## Describe Resources
+```
+kubectl -n testapp get pod
+kubectl -n testapp describe pod [pod name]
+kubectl -n testapp describe deployment [deployment name]
+```
+
 ## Logging
 ```
 kubectl -n testapp get pod
