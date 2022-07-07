@@ -34,7 +34,7 @@ kubectl apply -f 2_basic_resources/2_full_deployment.yaml
 
 kubectl -n testapp get pod
 
+# Go to http://k8s-tutorial.local
+
 kubectl delete -f 2_basic_resources/2_full_deployment.yaml
 ```
-
-Go to http://k8s-tutorial.local
